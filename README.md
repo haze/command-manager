@@ -2,7 +2,7 @@
 I used this for my minecraft cheats. Good for anything really... Java8+
 
 ## SpeedModule.java
-'''java
+```java
 private boolean nocheatMode;
     private float speed;
 
@@ -38,7 +38,7 @@ private boolean nocheatMode;
     public void testing(@LengthClamp(15) String str1, String str2, Optional<String> str3) {
         System.out.println(String.format("1 = %s, 2 = %s, 3 = %s", str1, str2, (str3.isPresent() ? str3 : "str3 not present.")));
     }
-'''
+```
 
 ## Main.java
 ```java
